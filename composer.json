@@ -8,7 +8,8 @@
         }
     ],
     "require": {
-      "wpackagist-plugin/restaurantpress":"1.8.0"
+      "wpackagist-plugin/restaurantpress":"1.8.0",
+      "wpackagist-plugin/super-progressive-web-apps":"2.0.2"
     },
     "autoload": {
         "psr-0": {
