@@ -1,0 +1,18 @@
+{
+    "name": "proyectos",
+    "description": "TP de proyectos",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "require": {
+      "wpackagist-plugin/restaurantpress":"1.8.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Acme": "src/"
+        }
+    }
+}
