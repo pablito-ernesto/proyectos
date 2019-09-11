@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9674c8b9f55c8f4c6c52ace94301a0ca",
+    "content-hash": "3b57c66f8c5a13c2fc80e72cfec0df78",
     "packages": [
         {
             "name": "composer/installers",
@@ -147,6 +147,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/restaurantpress/"
+        },
+        {
+            "name": "wpackagist-plugin/super-progressive-web-apps",
+            "version": "2.0.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/super-progressive-web-apps/",
+                "reference": "tags/2.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/super-progressive-web-apps.2.0.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/super-progressive-web-apps/"
         }
     ],
     "packages-dev": [],
