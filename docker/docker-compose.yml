@@ -1,0 +1,21 @@
+dockerhost-web:
+  build: php7-apache/
+  ports:
+    - 9991:80
+  volumes:
+    - ../:/var/www/html
+  container_name: dockerhost_web
+  links:
+    - mysql
+
+mysql:
+  image: mysql:5.7
+  ports:
+    - 33991:3306
+  volumes:
+    - ./mysql:/var/lib/mysql/
+  environment:
+    MYSQL_USER: wordpress
+    MYSQL_ROOT_PASSWORD: wordpress
+    MYSQL_DATABASE: wordpress
+    MYSQL_PASSWORD: wordpress

@@ -10,6 +10,9 @@ sudo apt-get install composer
 - MySQL (https://phoenixnap.com/kb/how-to-install-mysql-on-ubuntu-18-04)
 - PHP 7.2 (https://www.rosehosting.com/blog/how-to-install-php-7-2-on-ubuntu-16-04/)
 - Apache2
+- Composer
+- Git
+- Subversion (?)
 
 ## Usage
 
@@ -42,6 +45,27 @@ create schema proyectos;
 ```
 
 - ir a proyectos.com.ar y terminar de configurar con el wizard
+
+### Development with Docker
+
+Dentro de la carpeta `docker` levantar containers
+```bash
+docker-compose up --build
+```
+
+Una vez levantado, en otra consola conectarse al contenedor web
+```bash
+docker exec -it dockerhost_web /bin/bash
+```
+
+Dentro del contenedor instalar dependencias del proyecto
+```bash
+composer install
+```
+
+En el navegador ingresar a `http://0.0.0.0:9991` y completar la instalacion ingresando 
+	* `wordpress` en el nombre de base de datos, usuario y cotrasena
+	* `mysql` en el campo host de la bd
 
 ## Contributing
 To do
