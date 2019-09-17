@@ -64,8 +64,8 @@ composer install
 ```
 
 En el navegador ingresar a `http://0.0.0.0:9991` y completar la instalacion ingresando 
-	* `wordpress` en el nombre de base de datos, usuario y cotrasena
-	* `mysql` en el campo host de la bd
+* `wordpress` en el nombre de base de datos, usuario y cotrasena
+* `mysql` en el campo host de la bd
 
 ## Contributing
 To do
