@@ -10,7 +10,8 @@
     "require": {
       "wpackagist-plugin/restaurantpress":"1.8.0",
       "wpackagist-plugin/pwa-for-wp":"1.3.2",
-      "wpackagist-plugin/ninja-forms":"3.4.20"
+      "wpackagist-plugin/ninja-forms":"3.4.20",
+      "wpackagist-plugin/wp-mail-bank":"4.0.7"
     },
     "autoload": {
         "psr-0": {

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d62b389ff9a8f96254421650b479b690",
+    "content-hash": "a0b0f92ab6382486ae816d6bebad9842",
     "packages": [
         {
             "name": "composer/installers",
@@ -187,6 +187,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/restaurantpress/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-mail-bank",
+            "version": "4.0.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-mail-bank/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-bank.zip?timestamp=1560835573",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-mail-bank/"
         }
     ],
     "packages-dev": [],
